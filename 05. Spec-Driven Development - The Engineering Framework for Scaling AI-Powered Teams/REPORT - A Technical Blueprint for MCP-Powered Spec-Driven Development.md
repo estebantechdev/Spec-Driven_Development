@@ -1,4 +1,4 @@
-# A Technical Blueprint for MCP-Powered Spec-Driven Development
+# REPORT - A Technical Blueprint for MCP-Powered Spec-Driven Development
 
 ## 1. Introduction to MCP-Enhanced Spec-Driven Development
 
