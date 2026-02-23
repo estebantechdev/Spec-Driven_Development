@@ -329,4 +329,3 @@ Now you achieve:
 > They are infrastructure for deterministic parallel AI engineering.
 
 They allow SDD to function as a production-grade orchestration system instead of a prompt experiment.
-
