@@ -1,0 +1,51 @@
+What is the primary source of truth in Spec-Driven Development (SDD)?,Clear and formal specifications in natural language.
+How does Spec-Driven Development (SDD) define the relationship between a developer and a task?,"It establishes a formal contract with a clear, expected outcome."
+"According to the source, why is standardized process ""non-negotiable"" when using AI in engineering?",To prevent chaotic code output and the exponential accumulation of technical debt.
+By what factor has technical debt reportedly multiplied since 2022 due to unmanaged AI coding?,It has multiplied by three or four times.
+"In SDD, what has replaced code as the most efficient way to maintain project documentation?",Exhaustive specifications written in natural language.
+What are the two essential characteristics a task must have to be effective in SDD?,The task must be exhaustive and validable.
+"Why must an SDD task be ""exhaustive""?","To ensure it covers all functional requirements, non-functional requirements, and acceptance criteria."
+What is the risk of implementing AI coding without an automated validation process?,The development bottleneck shifts from programming to the much slower task of manual validation.
+Open Spec Command: `new`,Purpose: Initializes the folder structure and creates the initial proposal for a new feature.
+Open Spec Command: `ff` (Fast Forward),"Purpose: Automatically generates all necessary artifacts, including specs, design, and tasks, in one step."
+Open Spec Command: `apply`,"Purpose: Triggers the AI to implement the code, run tests, and update documentation based on the specs."
+Open Spec Command: `verify`,"Purpose: Analyzes the implementation for completion, correctness, and architectural coherence."
+Open Spec Command: `archive`,Purpose: Finalizes the task by moving the changes into the project's permanent formal documentation.
+Open Spec Command: `commit`,Purpose: Prepares the git commit and pull request with an AI-generated summary of the changes.
+Which Open Spec artifact provides the detailed technical approach and rationalizes architectural decisions?,The Design artifact.
+Which Open Spec artifact contains the hyper-detailed checklist used to guide the AI's coding steps?,The Tasks artifact.
+"What is the primary role of the ""Proposal"" artifact in the Open Spec framework?","It defines the high-level objective and the ""why"" behind the feature development."
+"In the Open Spec workflow, what should be done before running the `new` command?",The user story must be enriched into an exhaustive technical task definition.
+The `verify` command assesses completion by checking if every item in the _____ list was performed.,Tasks.
+How does SDD maintain project agility despite requiring high levels of documentation?,By focusing on detailing immediate tasks for AI execution rather than creating long-term waterfall plans.
+"What constitutes the ""perfect recipe"" for the context needed by an AI in SDD?","Technical specifications, team principles, and defined workflows."
+List three components that belong in the Technical Specs context of a project.,"The tech stack, architecture patterns, and data model entities."
+List three components that belong in the Workflow context of a project.,"Defined roles, step-by-step processes, and specific deliverables for each phase."
+Why is it beneficial to store project context in Markdown files within the repository?,It allows the AI to access the most current documentation directly during the development cycle.
+What does the author call the phenomenon where documentation becomes useless because it is not updated?,The Confluence Effect.
+"In the SDD workflow, where is the developer's primary effort redirected?",Toward the initial design/refinement phase and the final validation/review phase.
+How does SDD avoid the accumulation of technical debt during AI development?,By applying best practices and automated testing consistently through every task.
+What specific format is often used for Scenarios in the Specs artifact to ensure clarity?,Behavioral Driven Development (BDD) using Given/When/Then structures.
+Which Open Spec command allows a developer to review artifacts one by one instead of all at once?,The `continue` command.
+What does the `apply` command do if a test fails during implementation?,It provides the console logs and attempts to fix the code until the tests pass.
+"In the context of Open Spec, what is a ""delta""?",A small improvement or change that is eventually merged into the main domain specifications.
+"What are the three skill sets in the ""Triangle of Abilities"" for an AI-augmented developer?","IA mastery, high-level technical vision/architecture, and soft skills."
+How does the role of a Full Stack developer evolve in an SDD environment?,It expands to managing the entire lifecycle from product design to production delivery.
+"What is a ""Power User"" or ""Champion"" responsible for in an SDD team?",Updating and refining the project's AI context based on new learnings and repo changes.
+The prompt technique used to transform a simple Jira ticket into a detailed technical spec is called _____.,Enrichment.
+Why should the Design artifact include alternatives that were considered and discarded?,To document technical debt decisions and provide a clear rationale for the chosen architecture.
+What is the purpose of using MCPs (Model Context Protocols) like the Jira MCP?,To allow the AI to interact directly with external tools for task management and documentation.
+"How does SDD handle ""Non-functional requirements"" differently than traditional methods?",It explicitly mandates their inclusion in every task to prevent security and performance oversights.
+"What does the author suggest is the ""1%"" goal for modern developers?",To become software engineers who orchestrate IA rather than just writing lines of code.
+"According to Ryan Dahl, the era of _____ has officially ended.",Humans writing code.
+"What is the significance of the `verify` command's ""coherence"" check?",It ensures the final code does not deviate from the architectural decisions made in the Design artifact.
+"Why does the author recommend using ""Work Trees"" for parallel development with AI agents?",To prevent code collisions by giving each agent its own isolated instance of the repository.
+Which AI assistants are mentioned as being highly compatible with Open Spec and SDD?,Cursor and Cloud Code.
+How does the `commit` command facilitate better code reviews for human teammates?,"By generating structured summaries, sequence diagrams, and a list of validated tests."
+"In the SDD workflow, what happens if an AI agent encounters a problem it cannot solve?",The developer intervenes to refine the task list or update the project's technical skills context.
+"What is the benefit of the ""Archive"" phase for future development tasks?","It provides the AI with a relevant, up-to-date historical context of all previous feature decisions."
+"According to the source, why is engineering not an ""art"" in the context of 99% of development tasks?","Most tasks have already been solved and documented, requiring engineering discipline rather than novelty."
+What should the Task artifact include for a simple backend endpoint feature?,"Unit tests, database mocks, endpoint testing with Curl, and Swagger documentation updates."
+"How does SDD ensure that ""edge cases"" (like SQL injection) are handled?",By including them as mandatory checklist items in the Task artifact before implementation begins.
+Why is the `open spec init` command used?,To configure the framework for specific AI assistants and create the project's config file.
+What is the final goal of the SDD process regarding development time and value?,To collapse the cost of high-quality code while making its value and reliability infinite.
