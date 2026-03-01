@@ -90,6 +90,6 @@ This ensures:
 
 - Prevention of low-quality or insufficiently tested code
 
-## Conclusion
+## 7. Conclusion
 
 By formalizing the 90% test coverage rule in the repository itself, the team creates a consistent, enforceable quality baseline for every feature.
