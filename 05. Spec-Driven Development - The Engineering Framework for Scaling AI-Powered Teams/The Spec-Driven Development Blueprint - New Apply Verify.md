@@ -10,9 +10,9 @@ In this phase, you establish the *technical contract* that the AI must follow.
 
 **Commands:**
 
-- `new` → initializes the folder structure  
+- `new` → initializes the folder structure
 
-- `ff` (fast forward) or `continue` → generates the necessary artifacts  
+- `ff` (fast forward) or `continue` → generates the necessary artifacts
 
 ### The Four Artifacts
 
@@ -80,9 +80,9 @@ Before any code is merged, the system performs a rigorous check to ensure qualit
 
 You receive a natural language summary detailing:
 
-- Passed tests  
+- Passed tests
 
-- Remaining warnings  
+- Remaining warnings
 
 - Any critical bugs (e.g., a controller not returning the correct error code)
 
@@ -95,6 +95,7 @@ You receive a natural language summary detailing:
 - **Commit**
 
   A specialized `commit` command prepares the code for a Pull Request, complete with:
-  - An AI-generated summary  
+
+  - An AI-generated summary
 
   - An automated code review for your teammates

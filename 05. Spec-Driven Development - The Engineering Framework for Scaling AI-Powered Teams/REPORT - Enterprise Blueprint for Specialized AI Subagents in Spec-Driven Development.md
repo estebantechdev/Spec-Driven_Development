@@ -252,4 +252,6 @@ This triad defines the AI Product Engineer.
 | archive | Converts change into Delta |
 | commit | Prepares PR with AI-generated summary |
 
+## 9. Conclusion
+
 By embedding architectural rigor, repository-based context, and specialized AI subagents, Spec-Driven Development transforms AI from a coding accelerator into an enterprise engineering framework.
