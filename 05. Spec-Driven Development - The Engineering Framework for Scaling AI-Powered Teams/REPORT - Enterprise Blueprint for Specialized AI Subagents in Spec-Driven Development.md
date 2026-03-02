@@ -151,7 +151,8 @@ To prevent documentation decay, all context must live inside the repository as M
 
 ### Implementation Standards
 
-- **Git Worktrees** for parallel agent execution  
+- **Git Worktrees** for parallel agent execution
+
 - **Context Files** defining:
 
   - Stack & versions (React 18, Node.js, etc.)
